@@ -141,17 +141,13 @@ text-align: center;
 
     background: #010101;
     text-align: center;
+    height: auto;
+    color: #c4b9b9;
 
 }
 .keepSection h3{
     color: #fcdb00;
     font-size: 25px;
-    
-
-
-}
-.keepSection{
-    color: #c4b9b9;
 }
 .mailInput{
     width: 508px;
@@ -188,28 +184,71 @@ text-align: center;
     padding: 52px 0px 100px 0px;
     box-sizing: border-box;
 }
-.footerColumn{
-    width: 25%;
-    float: left;
+.section keepSection {
+    background: #010101;
+    height: 100%;
 }
 
+.social{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top:80px;
+    
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    background: #fcdb00;
+    border-radius: 4px;
+    color: #010101;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin-left:35px;
+    line-height: 42px;
+    transition-duration: 0.2s;
+}
+.social a:first-child{
+    margin-left: 0px;
+}
+.social a:hover{
+    background:#c7ae05;
+    transition-duration: 0.2s;
+}
+.footerColumn{
+    width: 20%;
+    float: left;
+    
+}
 .footerColumn p,
 .footerColumn span{
-   color: aliceblue
-
+    color: #ffffff;
+    text-align: left;
 }
 .footerColumn span{
     display: inline-block;
     width: 100%;
 }
-.footerColumn p{
-    margin-bottom: 0px;
-}
-.footerColumn ul li a{
-    color: azure;
-    text-decoration: none;
-}
+.footerColumn p,
 .footerColumn ul{
     margin: 0px;
+    text-align: left;
+}
+.footerColumn ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition-duration: 0.2s;
+}
+.footerColumn ul li a:hover{
+    color: #fcdb00;
+    transition-duration: 0.2s;
+}
+.footerColumn ul{
+    box-sizing: border-box;
     padding-left: 80px;
 }
+.footerColumn ul li{
+    list-style-type:none;
+}   
